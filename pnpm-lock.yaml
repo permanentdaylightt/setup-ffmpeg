@@ -21,8 +21,8 @@ importers:
         specifier: ^7.5.4
         version: 7.5.4
       undici:
-        specifier: ^6.11.1
-        version: 6.11.1
+        specifier: ^6.12.0
+        version: 6.12.0
       uuid:
         specifier: ^9.0.1
         version: 9.0.1
@@ -1460,8 +1460,8 @@ packages:
     resolution: {integrity: sha512-wh1pHJHnUeQV5Xa8/kyQhO7WFa8M34l026L5P/+2TYiakvGy5Rdc8jWZVyG7ieht/0WgJLEd3kcU5gKx+6GC8w==}
     engines: {node: '>=14.0'}
 
-  undici@6.11.1:
-    resolution: {integrity: sha512-KyhzaLJnV1qa3BSHdj4AZ2ndqI0QWPxYzaIOio0WzcEJB9gvuysprJSLtpvc2D9mhR9jPDUk7xlJlZbH2KR5iw==}
+  undici@6.12.0:
+    resolution: {integrity: sha512-d87yk8lqSFUYtR5fTFe2frpkMIrUEz+lgoJmhcL+J3StVl+8fj8ytE4lLnJOTPCE12YbumNGzf4LYsQyusdV5g==}
     engines: {node: '>=18.0'}
 
   universal-user-agent@6.0.1:
@@ -3229,7 +3229,7 @@ snapshots:
     dependencies:
       '@fastify/busboy': 2.1.0
 
-  undici@6.11.1: {}
+  undici@6.12.0: {}
 
   universal-user-agent@6.0.1: {}
 
