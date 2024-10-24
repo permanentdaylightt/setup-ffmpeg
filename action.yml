@@ -1,25 +1,33 @@
 name: Setup FFmpeg
-description: 'Download, cache and add to PATH ffmpeg and ffprobe binaries.'
+description: 'Download, cache and add to PATH FFmpeg and FFprobe binaries.'
 author: Federico Carboni
+
 inputs:
   ffmpeg-version:
-    description: 'Version of ffmpeg to use. Version Spec is only fully supported on Windows.'
+    description: 'Version of FFmpeg to use. Version Spec is only fully supported on Windows.'
     default: release
+
   architecture:
-    description: 'Target architecture for FFmpeg, on Windows and MacOS only x64 is supported; on Linux arm64 may also be used. Defaults to the system architecture.'
+    description: 'Target architecture for FFmpeg. On Windows and macOS, only x64 is supported; on Linux, arm64 may also be used. Defaults to the system architecture.'
+
   linking-type:
-    description: Linking type of the binaries. Use "shared" to download shared binaries and "static" for statically linked ones. Shared builds are currently only available for windows releases. Defaults to "static"
+    description: 'Linking type of the binaries. Use "shared" for shared binaries and "static" for statically linked ones. Shared builds are currently only available for Windows releases. Defaults to "static".'
     default: static
+
   github-token:
-    description: "Used to pull Windows builds from GyanD/codexffmpeg. Since there's a default, this is typically not supplied by the user."
+    description: 'Used to pull Windows builds from GyanD/codexffmpeg. Since there's a default, this is typically not supplied by the user.'
     default: ${{ github.server_url == 'https://github.com' && github.token || '' }}
+
 outputs:
   ffmpeg-version:
-    description: The installed ffmpeg version
+    description: 'The installed FFmpeg version'
+    
   ffmpeg-path:
-    description: Path to the ffmpeg binaries
+    description: 'Path to the FFmpeg binaries'
+    
   cache-hit:
-    description: A boolean value to indicate whether the tool cache was hit
+    description: 'A boolean value to indicate whether the tool cache was hit'
+
 runs:
   using: node20
   main: dist/index.js
