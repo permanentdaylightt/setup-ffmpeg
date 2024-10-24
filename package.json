@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/FedericoCarboni/setup-ffmpeg#readme",
   "devDependencies": {
-    "@octokit/core": "^5.0.2",
+    "@octokit/core": "^6.1.2",
     "@types/jest": "^29.5.14",
     "@types/node": "^20.10.4",
     "@types/semver": "^7.5.6",
