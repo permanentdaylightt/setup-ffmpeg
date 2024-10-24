@@ -40,7 +40,7 @@
     "@actions/exec": "^1.1.1",
     "@actions/tool-cache": "^2.0.1",
     "semver": "^7.5.4",
-    "undici": "^6.0.1",
+    "undici": "^6.11.1",
     "uuid": "^9.0.1"
   }
 }
