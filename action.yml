@@ -15,7 +15,7 @@ inputs:
     default: static
 
   github-token:
-    description: 'Used to pull Windows builds from GyanD/codexffmpeg. Since there's a default, this is typically not supplied by the user.'
+    description: 'Used to pull Windows builds from GyanD/codexffmpeg. Since theres a default, this is typically not supplied by the user.'
     default: ${{ github.server_url == 'https://github.com' && github.token || '' }}
 
 outputs:
