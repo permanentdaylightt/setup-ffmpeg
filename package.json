@@ -2,7 +2,7 @@
   "name": "setup-ffmpeg",
   "version": "3.0.0",
   "private": true,
-  "description": "Setup ffmpeg action",
+  "description": "Setup FFmpeg action",
   "scripts": {
     "build": "ncc build src/action.js",
     "test": "jest",
