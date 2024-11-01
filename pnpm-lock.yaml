@@ -24,8 +24,8 @@ importers:
         specifier: ^6.20.1
         version: 6.20.1
       uuid:
-        specifier: ^9.0.1
-        version: 9.0.1
+        specifier: ^11.0.2
+        version: 11.0.2
     devDependencies:
       '@octokit/core':
         specifier: ^6.1.2
@@ -1454,13 +1454,13 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
+  uuid@11.0.2:
+    resolution: {integrity: sha512-14FfcOJmqdjbBPdDjFQyk/SdT4NySW4eM0zcG+HqbHP5jzuH56xO3J1DGhgs/cEMCfwYi3HQI1gnTO62iaG+tQ==}
+    hasBin: true
+
   uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
     deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
-    hasBin: true
-
-  uuid@9.0.1:
-    resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
 
   v8-to-istanbul@9.2.0:
@@ -3179,9 +3179,9 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  uuid@3.4.0: {}
+  uuid@11.0.2: {}
 
-  uuid@9.0.1: {}
+  uuid@3.4.0: {}
 
   v8-to-istanbul@9.2.0:
     dependencies:
