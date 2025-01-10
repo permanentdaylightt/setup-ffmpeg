@@ -24,8 +24,8 @@ importers:
         specifier: ^6.20.1
         version: 6.20.1
       uuid:
-        specifier: ^11.0.2
-        version: 11.0.2
+        specifier: ^11.0.5
+        version: 11.0.5
     devDependencies:
       '@octokit/core':
         specifier: ^6.1.2
@@ -1458,8 +1458,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  uuid@11.0.2:
-    resolution: {integrity: sha512-14FfcOJmqdjbBPdDjFQyk/SdT4NySW4eM0zcG+HqbHP5jzuH56xO3J1DGhgs/cEMCfwYi3HQI1gnTO62iaG+tQ==}
+  uuid@11.0.5:
+    resolution: {integrity: sha512-508e6IcKLrhxKdBbcA2b4KQZlLVp2+J5UwQ6F7Drckkc5N9ZJwFa4TgWtsww9UG8fGHbm6gbV19TdM5pQ4GaIA==}
     hasBin: true
 
   uuid@3.4.0:
@@ -3185,7 +3185,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  uuid@11.0.2: {}
+  uuid@11.0.5: {}
 
   uuid@3.4.0: {}
 
